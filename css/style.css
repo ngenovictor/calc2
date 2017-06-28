@@ -30,3 +30,8 @@ div#pingponged-results{
 	display: none;
 	background-color: rgba(110,110,110,1);
 }
+h3#time{
+	text-decoration: underline;
+	text-decoration-color: red;
+}
+@media 

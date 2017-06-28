@@ -1,4 +1,6 @@
+
 var Calculator = require('./../js/calculator.js').calculatorModule;
+
 $(document).ready(function(){
 	$("form#calc").submit(function(event){
 		event.preventDefault();
