@@ -1,0 +1,32 @@
+body{
+	width: 100%;
+}
+div.body-wrapper{
+	padding: 5px;
+	border:1px solid red;
+	border-radius: 5px;
+	margin-left: 200px; 
+	min-width: 300px;
+	max-width: 500px;
+}
+div.result-wrapper{
+	margin-left: 200px; 
+	min-width: 200px;
+	min-height: 200px;
+	border:1px solid red;
+	border-radius: 5px;
+	max-width: 500px;
+}
+div.result-wrapper div.result{
+	display: none;
+}
+div#submit{
+	text-align: center;
+}
+h2{
+	text-decoration: underline;
+}
+div#pingponged-results{
+	display: none;
+	background-color: rgba(110,110,110,1);
+}
